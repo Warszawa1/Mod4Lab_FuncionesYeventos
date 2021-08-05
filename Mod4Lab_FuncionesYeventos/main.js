@@ -41,18 +41,18 @@ function showResult(res){
   result.value = res;
 }
 
-var num = document.getElementById("js-num1" && "js-num2").value;
-    if (num == null || num == ""){ //No se debe permitir una entrada vacía
-         //window.open("ejemplo_error_pages/error_001.html", "", ",top=500,left=500,width=850,height=250"); //ejemplo para dar los errores mediante ventanas emergentes
-        alert('Escribe un número en el campo número');
-        document.getElementById("js-num1" && "js-num2").value = ""; 
-    } 
+/*function checkInput () {	
+var num1 = document.getElementById('js-num1').value;
+  if (num1 == null || num1 == ''){ //No se debe permitir una entrada vacía
+     alert('Error, no se pueden dejar campos en blanco');
+     return false;
+  }
+  else 
+  {
+    return true;
+  }	
+}
 
-    /*if (n1.value=="" || n2.value=="") {
-    alert("No se permiten campos vacios");
-    }
-    else if (n1.value== NaN || n2.value== NaN) {
-    alert("No se permiten campos con números no numéricos");
-    }*/
+checkInput(); */
 
 
