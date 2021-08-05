@@ -2,11 +2,11 @@
 var n1 = document.getElementById('js-num1');
 var n2 = document.getElementById('js-num2');   
 
-var result = document.querySelector('#js-result');
-var addBtn = document.querySelector('#js-add');
-var subtBtn = document.querySelector('#js-subtract');
-var multBtn = document.querySelector('#js-multiply');
-var divBtn = document.querySelector('#js-divide');
+var result = document.getElementById('js-result');
+var addBtn = document.getElementById('js-add');
+var subtBtn = document.getElementById('js-subtract');
+var multBtn = document.getElementById('js-multiply');
+var divBtn = document.getElementById('js-divide');
 
 // ATTACH EVENT LISTENERS
 addBtn.addEventListener('click', add, false);
