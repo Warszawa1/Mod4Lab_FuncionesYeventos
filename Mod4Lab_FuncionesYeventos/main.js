@@ -45,16 +45,4 @@ function divide() {
     alert("No dejes ninguno de los dos campos vacíos ");
   }else {
   result.value =Number(n1.value) / Number(n2.value);}
-  console.log('running divide');
-  showResult(n1.value / n2.value);
-  
 }
-
-function showResult(res){
-  console.log(result);
-  result.value = res;
-}
-
-
-
-
