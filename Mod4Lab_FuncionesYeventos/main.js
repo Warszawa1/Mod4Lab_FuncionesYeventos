@@ -18,7 +18,7 @@ divBtn.addEventListener("click", divide, false);
 // FUNCTIONS FOR MATHEMATICAL OPERATIONS
 /* use Number() alternativa para convertir string a numero */
 function add(){  
-  if(document.getElementById("js-num1").value ==  "" || document.getElementById("js-num2").value == "") {
+  if(n1.value ==  "" || n2.value == "") {
     alert("Debes rellenar los dos campos");
   }else {
     result.value = Number(n1.value) + Number(n2.value);}
@@ -26,14 +26,14 @@ function add(){
 
 // implicit coercion takes place here, so no need for Number()
 function subtract() {
-  if(document.getElementById("js-num1").value ==  "" || document.getElementById("js-num2").value == "") {
+  if(n1.value ==  "" || n2.value == "") {
     alert("No dejes ninguno de los dos campos vacíos ");
   }else {
   result.value = Number(n1.value) - Number(n2.value);}
 }
 
 function multiply() {
- if(document.getElementById("js-num1").value ==  "" || document.getElementById("js-num2").value == "") {
+  if(n1.value ==  "" || n2.value == "") {
   alert("No dejes ninguno de los dos campos vacíos ");
 }else {
   result.value = Number(n1.value) * Number(n2.value);}
@@ -41,7 +41,7 @@ function multiply() {
 
 
 function divide() {
-  if(document.getElementById("js-num1").value ==  "" || document.getElementById("js-num2").value == "") {
+  if(n1.value ==  "" || n2.value == "") {
     alert("No dejes ninguno de los dos campos vacíos ");
   }else {
   result.value =Number(n1.value) / Number(n2.value);}
@@ -54,3 +54,7 @@ function showResult(res){
   console.log(result);
   result.value = res;
 }
+
+
+
+
